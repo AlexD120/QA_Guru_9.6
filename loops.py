@@ -83,6 +83,6 @@ for key, value in d:
 
 cities = ["Екатеренбург", "Москва", "Сочи"]
 
-for city in cities:
-    print(f"{city} на каком то месте по загрязнению воздуха")
+for i, city in enumerate(cities):
+    print(f"{city} на {i + 1} то месте по загрязнению воздуха")
 
